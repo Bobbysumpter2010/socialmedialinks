@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+}
+
+#social-links-container{
+    min-width: 320px;
+    max-width: 500px;
+    min-height: 500px;
+    max-height: 1500px;
+    background-color: hsl(0, 0%, 12%);
+    margin: 0 auto;
+    margin-top: 200px;
+    border-radius:12px;
+    padding-top: 50px;
+    
+
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: hsl(75, 94%, 57%);
+    font-family: "inter",serif;
+    text-align: center;
+}
+
+p{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 25px;
+    
+    }
+
+img{
+    border: solid 5px red;
+    min-width: 320px;
+    max-width: 500px;
+    border-radius: 50%;
+    position:relative;
+    left: 160px;
+}
+
+button{
+    background-color:  hsl(0, 0%, 20%);
+    color: green;
+    width: 375px;
+    height: 50px;
+    position: relative;
+    left: 60px;
+    border-radius: 12px;
+    font-family: "inter", serif;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+
+#flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: white;
+}
+
+button:active::after{
+    background-color: hsl(75, 94%, 57%);
+    color: white;
+}
